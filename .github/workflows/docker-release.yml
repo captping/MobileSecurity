@@ -1,8 +1,9 @@
 name: 'Build and Publish Release to Unsigned DockerHub'
 
 on:
-  release:
-    types: [created]
+ push:
+    branches:
+      - master
 
 jobs:
     buildx:
