@@ -1,4 +1,4 @@
-name: 'Build and Publish Release to DockerHub'
+name: 'Build and Publish Release to Unsigned DockerHub'
 
 on:
   release:
